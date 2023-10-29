@@ -1,17 +1,14 @@
 package Arrays;
 
 import java.sql.SQLOutput;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        System.out.println("length of the array : ");
-        int n = scan.nextInt();
-        int arr[] = new int[n];
-        for(int i=0 ; i<n; i++ ){
-            arr[i] = scan.nextInt();
-        }
+        Use u = new Use();
+       int arr[] = u.read();
+
 //       ** program for find the largest element is orderd array ASC/DSC both ** (code for MaxElementArray)
 //        int arr[] ={8,7,6,5,3};
 //   MaxElementArray max = new MaxElementArray();
@@ -29,7 +26,21 @@ public class Main {
 //            System.out.print(rs+" ");
 //        }
 
-        //**
+
+        //** Program to find Kth largest element in a string
+//        int k =3;
+//   KthLargest l = new KthLargest();
+//    int largest  =l.kthLargestElement(arr,k);
+//
+//        System.out.println(largest);
+//        u.print(arr);
+
+        //** program to count the accurrencess of integer in array
+//       countOccurrences count = new countOccurrences();
+//      int n= count.countOccurrences(arr,4);
+//        System.out.println("Element found at : "+n);
+
+
     }
 
 }

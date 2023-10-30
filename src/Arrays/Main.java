@@ -56,10 +56,22 @@ public class Main {
 //        System.out.println("Sum = "+sum);
 
         //** program to check that the given sum belongs to any start and end index
-        System.out.println("Enter the sum value to check: " );
-                 int k =scan.nextInt();
-                 ChecksubArraysum checkSum = new ChecksubArraysum();
-                 checkSum.checkSubArraysum(arr,k);
+//        System.out.println("Enter the sum value to check: " );
+//                 int k =scan.nextInt();
+//                 ChecksubArraysum checkSum = new ChecksubArraysum();
+//                 checkSum.checkSubArraysum(arr,k);
+
+        //** program to find the union of the two arrays
+
+//        int[] arr1= u.read();
+//   UnionOfArray union = new UnionOfArray();
+//   union.union(arr,arr1);
+
+        //** program to find the intersection of the array
+
+        int[] arr1 =u.read();
+        InterSectionOfArray intersection = new InterSectionOfArray();
+        intersection.interSection(arr,arr1);
 
     }
 

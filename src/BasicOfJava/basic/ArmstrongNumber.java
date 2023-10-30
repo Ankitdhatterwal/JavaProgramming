@@ -2,7 +2,7 @@ package BasicOfJava.basic;
 
 import java.util.Scanner;
 
-public class program1 {
+public class ArmstrongNumber {
     public static void main(String args[]) {
         Scanner scan  = new Scanner(System.in);
         System.out.println("Enter the number :");

@@ -6,6 +6,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
         Use u = new Use();
        int arr[] = u.read();
 
@@ -41,9 +42,21 @@ public class Main {
 //        System.out.println("Element found at : "+n);
 
 //** program to sort the array of 0's 1's and 2's
-        sorting012 sort =new sorting012();
-        int[] arr1 = sort.sorting012(arr);
-        u.print(arr1);
+//        sorting012 sort =new sorting012();
+//        int[] arr1 = sort.sorting012(arr);
+//        u.print(arr1);
+
+        //** program to find the sum of sub array between start and end index
+        System.out.print("Enter the start index : " );
+         int n1 =scan.nextInt();
+        System.out.print("Enter the end index: ");
+        int n2 = scan.nextInt();
+        SubArraySum sub = new SubArraySum();
+       int sum= sub.subArraySum(arr,n1,n2);
+        System.out.println("Sum = "+sum);
+
+
+
     }
 
 }

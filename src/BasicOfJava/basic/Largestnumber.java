@@ -1,6 +1,6 @@
 package BasicOfJava.basic;
 import java.util.Scanner;
-public class program2 {
+public class Largestnumber {
     public static void main(String args[]){
         Scanner scan = new Scanner(System.in);
         int arr[] = new int[100];
@@ -9,7 +9,7 @@ public class program2 {
        for(int i=0 ; i<n; i++ ){
             arr[i] = scan.nextInt();
         }
-        program2.largest(n,arr);
+        Largestnumber.largest(n,arr);
         smallest(n,arr);
     }
     private static void largest(int n, int[] arr) {

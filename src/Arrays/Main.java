@@ -40,7 +40,10 @@ public class Main {
 //      int n= count.countOccurrences(arr,4);
 //        System.out.println("Element found at : "+n);
 
-
+//** program to sort the array of 0's 1's and 2's
+        sorting012 sort =new sorting012();
+        int[] arr1 = sort.sorting012(arr);
+        u.print(arr1);
     }
 
 }

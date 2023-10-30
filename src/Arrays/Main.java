@@ -47,15 +47,19 @@ public class Main {
 //        u.print(arr1);
 
         //** program to find the sum of sub array between start and end index
-        System.out.print("Enter the start index : " );
-         int n1 =scan.nextInt();
-        System.out.print("Enter the end index: ");
-        int n2 = scan.nextInt();
-        SubArraySum sub = new SubArraySum();
-       int sum= sub.subArraySum(arr,n1,n2);
-        System.out.println("Sum = "+sum);
+//        System.out.print("Enter the start index : " );
+//         int n1 =scan.nextInt();
+//        System.out.print("Enter the end index: ");
+//        int n2 = scan.nextInt();
+//        SubArraySum sub = new SubArraySum();
+//       int sum= sub.subArraySum(arr,n1,n2);
+//        System.out.println("Sum = "+sum);
 
-
+        //** program to check that the given sum belongs to any start and end index
+        System.out.println("Enter the sum value to check: " );
+                 int k =scan.nextInt();
+                 ChecksubArraysum checkSum = new ChecksubArraysum();
+                 checkSum.checkSubArraysum(arr,k);
 
     }
 

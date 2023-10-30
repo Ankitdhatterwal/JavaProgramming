@@ -28,7 +28,7 @@ public class Main {
 //        }
 
 
-        //** Program to find Kth largest element in a string
+        //** Program to find Kth largest element in a string (KthLargest)
 //        int k =3;
 //   KthLargest l = new KthLargest();
 //    int largest  =l.kthLargestElement(arr,k);
@@ -36,7 +36,7 @@ public class Main {
 //        System.out.println(largest);
 //        u.print(arr);
 
-        //** program to count the accurrencess of integer in array
+        //** program to count the Occurrencess of integer in array (CounOccurrences)
 //       countOccurrences count = new countOccurrences();
 //      int n= count.countOccurrences(arr,4);
 //        System.out.println("Element found at : "+n);
@@ -46,7 +46,7 @@ public class Main {
 //        int[] arr1 = sort.sorting012(arr);
 //        u.print(arr1);
 
-        //** program to find the sum of sub array between start and end index
+        //** program to find the sum of sub array between start and end index (SubArraySum)
 //        System.out.print("Enter the start index : " );
 //         int n1 =scan.nextInt();
 //        System.out.print("Enter the end index: ");
@@ -55,23 +55,35 @@ public class Main {
 //       int sum= sub.subArraySum(arr,n1,n2);
 //        System.out.println("Sum = "+sum);
 
-        //** program to check that the given sum belongs to any start and end index
+        //** program to check that the given sum belongs to any start and end index (CheckSubArraySum)
 //        System.out.println("Enter the sum value to check: " );
 //                 int k =scan.nextInt();
 //                 ChecksubArraysum checkSum = new ChecksubArraysum();
 //                 checkSum.checkSubArraysum(arr,k);
 
-        //** program to find the union of the two arrays
+        //** program to find the union of the two arrays (UnionOfArray)
 
 //        int[] arr1= u.read();
 //   UnionOfArray union = new UnionOfArray();
 //   union.union(arr,arr1);
 
-        //** program to find the intersection of the array
+        //** program to find the intersection of the array (InterSectionArray)
 
-        int[] arr1 =u.read();
-        InterSectionOfArray intersection = new InterSectionOfArray();
-        intersection.interSection(arr,arr1);
+//        int[] arr1 =u.read();
+//        InterSectionOfArray intersection = new InterSectionOfArray();
+//        intersection.interSection(arr,arr1);
+
+        // ** program to Rotate the array by one RotateArray
+        RotateArray rArray = new RotateArray();
+        while(true) {
+            arr = rArray.rotateArray(arr);
+            u.print(arr);
+              System.out.println("want to rotate(yes/no): ");
+              String feedback = scan.nextLine();
+              if(feedback.equalsIgnoreCase("no")){
+                  break;
+              }
+        }
 
     }
 

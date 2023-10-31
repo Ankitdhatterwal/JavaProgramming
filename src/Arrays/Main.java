@@ -1,14 +1,16 @@
 package Arrays;
 
 import java.sql.SQLOutput;
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        Use u = new Use();
-       int arr[] = u.read();
+//        Scanner scan = new Scanner(System.in);
+//        Use u = new Use();
+//       int arr[] = u.read();
 
 //       ** program for find the largest element is orderd array ASC/DSC both ** (code for MaxElementArray)
 //        int arr[] ={8,7,6,5,3};
@@ -74,17 +76,22 @@ public class Main {
 //        intersection.interSection(arr,arr1);
 
         // ** program to Rotate the array by one RotateArray
-        RotateArray rArray = new RotateArray();
-        while(true) {
-            arr = rArray.rotateArray(arr);
-            u.print(arr);
-              System.out.println("want to rotate(yes/no): ");
-              String feedback = scan.nextLine();
-              if(feedback.equalsIgnoreCase("no")){
-                  break;
-              }
+//        RotateArray rArray = new RotateArray();
+//        while(true) {
+//            arr = rArray.rotateArray(arr);
+//            u.print(arr);
+//              System.out.println("want to rotate(yes/no): ");
+//              String feedback = scan.nextLine();
+//              if(feedback.equalsIgnoreCase("no")){
+//                  break;
+//              }
+
+        //** program to Find missing number
+        FindMissingNumber find  = new FindMissingNumber();
+        List<Integer> list  =  new ArrayList<>(Arrays.asList(6,3,2,1,4));
+       int n =  find.missingNumber(list);
+        System.out.println(n);
         }
 
-    }
 
 }

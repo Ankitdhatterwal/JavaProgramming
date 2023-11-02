@@ -1,7 +1,8 @@
-import java.awt.*;
+package BasicOfJava.basic.Basics;
+
 import java.util.Scanner;
 
-class Main{
+public class Starspace {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int n = scan.nextInt();

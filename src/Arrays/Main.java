@@ -8,9 +8,9 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-//        Scanner scan = new Scanner(System.in);
-//        Use u = new Use();
-//       int arr[] = u.read();
+        Scanner scan = new Scanner(System.in);
+        Use u = new Use();
+       int arr[] = u.read();
 
 //       ** program for find the largest element is orderd array ASC/DSC both ** (code for MaxElementArray)
 //        int arr[] ={8,7,6,5,3};
@@ -87,10 +87,15 @@ public class Main {
 //              }
 
         //** program to Find missing number
-        FindMissingNumber find  = new FindMissingNumber();
-        List<Integer> list  =  new ArrayList<>(Arrays.asList(6,3,2,1,4));
-       int n =  find.missingNumber(list);
-        System.out.println(n);
+//        FindMissingNumber find  = new FindMissingNumber();
+//        List<Integer> list  =  new ArrayList<>(Arrays.asList(6,3,2,1,4));
+//       int n =  find.missingNumber(list);
+//        System.out.println(n);
+
+
+        //** program to find duplicate number
+        FindDuplicate duplicate = new FindDuplicate();
+        duplicate.duplicate(arr);
         }
 
 

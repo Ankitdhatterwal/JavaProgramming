@@ -1,4 +1,4 @@
-package BasicOfJava.basic;
+package BasicOfJava.basic.Basics;
 import java.util.Scanner;
 public class Largestnumber {
     public static void main(String args[]){

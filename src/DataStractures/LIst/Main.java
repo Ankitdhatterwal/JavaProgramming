@@ -11,13 +11,14 @@ public class Main {
 
 
 //** function is used to  test the oprations
-   //     Operations op =new Operations();
-//   op.operation(list);
+        Operations op =new Operations();
+   op.operation(list);
 
         //** function used to add an element at given index
-        AddElementToSpecifiedIndexArrayListExample addIndex = new AddElementToSpecifiedIndexArrayListExample();
-        List<String> list2 = addIndex.addAtIndex(list,"hello",2);
-        System.out.println(list2);
+//        AddElementToSpecifiedIndexArrayListExample addIndex = new AddElementToSpecifiedIndexArrayListExample();
+//        List<String> list2 = addIndex.addAtIndex(list,"hello",2);
+//        System.out.println(list2);
+
 
 
 

@@ -1,7 +1,6 @@
 package DataStractures.LIst;
 
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 public class Operations {
     public static List<String> operation(List<String> list){
@@ -13,7 +12,7 @@ public class Operations {
         list.add("Ankit");
         list.add("Ankit");
 list.clear();
-boolean i = list.isEmpty();
+boolean j = list.isEmpty();
 if(list.isEmpty()){
     System.out.println("List is empty : ");
 }
@@ -41,6 +40,14 @@ Object[] str1 = list.toArray();
             System.out.println(str2);
 
         }
+ //** program to conver list to array of int type
+List<Integer> list1 = new ArrayList<>();
+        Collections.addAll(list1,1,2,3,4,5,6);
+        int arr[]  = list1.stream().mapToInt(i->i).toArray();
+
+        System.out.println(list1);
+
+
 
 return list;
     }

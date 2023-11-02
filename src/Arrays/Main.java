@@ -1,8 +1,6 @@
 package Arrays;
 
-import java.sql.SQLOutput;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
@@ -94,9 +92,27 @@ public class Main {
 
 
         //** program to find duplicate number
-        FindDuplicate duplicate = new FindDuplicate();
-        duplicate.duplicate(arr);
-        }
+//        FindDuplicate duplicate = new FindDuplicate();
+//        duplicate.duplicate(arr);
+//        }
 
+
+        //** program to find the common elements in the 3 arrays;
+//        InterSectionOfArray inter = new InterSectionOfArray();
+//        int arr1[] = {1, 5,5};
+//        int arr2[] = {3, 4,  5, 10};
+//        int arr3[] = { 5, 10, 20};
+//        List<Integer> list = new ArrayList<>();
+//         list = inter.interSection(arr1,arr2);
+//         int[] example1 = list.stream().mapToInt(i->i).toArray();
+//         list = inter.interSection(example1,arr3);
+//         System.out.println(list);
+
+        //** program to find firstReapting element
+        firstRepeatingElement contain = new firstRepeatingElement();
+        int n = contain.contain(arr);
+        System.out.println(n);
+
+        }
 
 }

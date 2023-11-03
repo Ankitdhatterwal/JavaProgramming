@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         Use u = new Use();
-       int arr[] = u.read();
+     //  int arr[] = u.read();
 
 //       ** program for find the largest element is orderd array ASC/DSC both ** (code for MaxElementArray)
 //        int arr[] ={8,7,6,5,3};
@@ -109,10 +109,22 @@ public class Main {
 //         System.out.println(list);
 
         //** program to find firstReapting element
-        firstRepeatingElement contain = new firstRepeatingElement();
-        int n = contain.contain(arr);
-        System.out.println(n);
+//        firstRepeatingElement contain = new firstRepeatingElement();
+//        int n = contain.contain(arr);
+//        System.out.println(n);
 
-        }
+        //** program to find firstNon repeating elemnet
+//        Integer arr[] = {1,2,3,22,22};
+//        FIrstNonRepeatingElement non = new FIrstNonRepeatingElement();
+//         boolean n = non.firstNonRepeating(arr);
+//        System.out.println(n);
+//        }
 
-}
+
+        //** program to find the the Valid Anagram;
+    String s = "anagram";
+    String t= "nagaram";
+    ValidAnagram valid = new ValidAnagram();
+    valid.validAnagram(s,t);
+
+}}

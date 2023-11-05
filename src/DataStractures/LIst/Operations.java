@@ -4,6 +4,15 @@ import java.util.*;
 
 public class Operations {
     public static List<String> operation(List<String> list){
+
+        List<Integer> list4 = new ArrayList<>();
+        list4.add(10);
+        list4.add(20);
+        list4.remove(10);
+
+        System.out.println(list4);
+
+
         //add Operation
         Scanner scan = new Scanner(System.in);
         String str = scan.nextLine();
